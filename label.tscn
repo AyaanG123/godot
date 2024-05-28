@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://bpp0qrmy3jqed"]
+
+[ext_resource type="Script" path="res://CharacterBody2D.gd" id="1_mnd6h"]
+[ext_resource type="Texture2D" uid="uid://b118xadov6gw5" path="res://ayaan.png" id="2_43tjv"]
+
+[node name="Label" type="Label"]
+offset_left = 636.0
+offset_top = 44.0
+offset_right = 770.0
+offset_bottom = 113.0
+text = "Skibidi Rizz"
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("1_mnd6h")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+texture = ExtResource("2_43tjv")
